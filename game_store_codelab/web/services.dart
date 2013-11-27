@@ -14,6 +14,5 @@ class InMemoryGameStoreService {
      new Game(7, "Bingo", "Boring game", 'Bingo is ..', "bingo.jpg", 1)
   ];
   
-  List<Game> getAll() => games;
   Game getById(int id) => games.firstWhere((game) => game.id == id, orElse: () => null);
 }
