@@ -26,4 +26,9 @@ class InMemoryGameStoreService {
       games[index] = game;
     }
   }
+  Game delete(int id) {
+    var game = getById(id);
+    games.remove(game);
+    return game;
+  }
 }
