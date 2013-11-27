@@ -13,10 +13,4 @@ class InMemoryGameStoreService {
      new Game(6, "Pool", "Pub game", 'Pool is ..', "pool.jpg", 3),
      new Game(7, "Bingo", "Boring game", 'Bingo is ..', "bingo.jpg", 1)
   ];
-  
-  List<Game> getAll() => games;
-  // TODO in future stories
-  // Game getById(int id) => null;
-  // Game save(Game game) => null;
-  // Game delete(int id) => null;
 }

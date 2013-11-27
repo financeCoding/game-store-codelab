@@ -7,6 +7,6 @@ class XGames extends PolymerElement {
   bool get applyAuthorStyles => true;
   XGames.created() : super.created();
   
-  List<Game> games = gameStoreService.getAll();
+  List<Game> games = gameStoreService.games;
 }
 
